@@ -13,6 +13,11 @@ document.addEventListener('keydown', (e) => {
         return;
     }
 
+    if (e.ctrlKey && e.code === 'KeyG') {
+        window.open('https://github.com/');
+        return;
+    }
+
     if (e.ctrlKey && e.code === 'KeyT') {
         window.open('https://www.time.ir/');
         return;
@@ -24,7 +29,7 @@ document.addEventListener('keydown', (e) => {
     }
 
     if (e.code === 'KeyG') {
-        window.open('https://github.com/');
+        window.open('https://gemini.google.com/');
         return;
     }
 
